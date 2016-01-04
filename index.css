@@ -140,6 +140,13 @@ button, .button {
   border-bottom: thin solid white;
 }
 
+.recruitment {
+  color: white;
+  font-size: 10pt;
+  padding-bottom: 30px;
+
+}
+
 @media only screen and (min-width: 500px) {
 
   .about-us {
@@ -169,6 +176,11 @@ button, .button {
 
   .input-field {
     width: 40%;
+  }
+
+  .recruitment {
+    width: 65%;
+    margin: auto;
   }
 
 }
