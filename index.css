@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.landing-image {
+  background-image: url("clouds-top.jpeg");
+  background-position: center;
+  margin: auto;
+  height: 580px;
+  background-repeat: no;
+}
+
+.logo {
+  width: 250px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 80px
+}
+
+
+
+.landing-copy {
+  text-align: center;
+  padding-top: 200px;
+  font-size: 23px;
+  margin: 0;
+}
+
+.down-arrow {
+  display: block;
+  margin: 0 auto;
+  padding-top: 90px;
+  width: 30px;
+}
+
+.blur-image {
+  background-image: url("man-standing.jpg");
+  margin: auto;
+  height: 685px;
+  background-repeat: no;
+  background-position: 37% 50%;
+}
+
+.left-blur-out {
+  margin: 0 auto;
+  color: white;
+  float: left;
+  background-color: black;
+  opacity: 0.8;
+  height: 100%;
+  width: 50%;
+  display: table;
+}
+
+.intro-copy {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  color: white;
+  font-size: 10pt;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.biz-info-toggle {
+  margin: 0 auto;
+  background-image: url("clouds-bottom.jpeg");
+  background-position: 0% 50%;
+  text-align: center;
+  padding: 50px;
+}
+
+.about-us {
+  display: inherit;
+}
+
+.mission-vision {
+  /*padding: 30px;*/
+  display: none;
+}
+
+button, .button {
+  background: #0383F7;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  color: #FFFFFF;
+  letter-spacing: 1.27px;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+#mc_embed_signup {
+  background-color: #212121;
+  padding: 10px;
+  text-align: center;
+}
+
+.right-align {
+}
+
+.input-field {
+  border: none;
+  height: 4%;
+  width: 85%;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 11pt;
+  outline: none;
+}
+
+.mc-field-group {
+  padding-bottom: 20px;
+}
+
+.sign-up-header {
+  color: white;
+}
+
+.airline-email {
+  color: white;
+  border-bottom: thin solid white;
+}
+
+@media only screen and (min-width: 500px) {
+
+  .about-us {
+    width: 60%;
+    margin: auto;
+  }
+
+  .airline-email {
+    width: 60%;
+    margin: auto;
+  }
+
+  .mission-vision {
+    width: 60%;
+    margin: auto;
+  }
+
+  .intro-copy {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    color: white;
+    font-size: 14pt;
+  }
+
+  .input-field {
+    width: 40%;
+  }
+
+}
